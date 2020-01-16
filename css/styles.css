@@ -7,7 +7,6 @@ header {
     overflow: hidden;
 }
 
-  
 header video {
 position: absolute;
 top: 50%;
@@ -15,7 +14,7 @@ left: 50%;
 min-width: 100%;
 min-height: 100%;
 width: auto;
-height: auto;
+height: 40%;
 z-index: 0;
 -ms-transform: translateX(-50%) translateY(-50%);
 -moz-transform: translateX(-50%) translateY(-50%);
