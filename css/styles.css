@@ -1,49 +1,61 @@
 header {
     position: relative;
     background-color: black;
-    height: 75vh;
+    height: 85vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
 }
 
 header video {
-position: absolute;
-top: 50%;
-left: 50%;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: 40%;
-z-index: 0;
--ms-transform: translateX(-50%) translateY(-50%);
--moz-transform: translateX(-50%) translateY(-50%);
--webkit-transform: translateX(-50%) translateY(-50%);
-transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 40%;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
-position: relative;
-z-index: 2;
+
+/*  */
+
+.videopromo {
+    position: relative;
+    background-color: black;
+    height: 60vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
 }
-  
-header .overlay {
-position: absolute;
-top: 0;
-left: 0;
-height: 100%;
-width: 100%;
-background-color: black;
-opacity: 0.5;
-z-index: 1;
+
+.videopromo video {
+    position: absolute;
+    top: 35%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
-  
+
+
+/* */
+
 .textPink {
-    color: #e83e8c
+    color: #42b0b7
 }
 
 .bg-pink {
-    background: #e83e8c
+    background: #42b0b7
 }
 
 .fixed-top.scrolled {
